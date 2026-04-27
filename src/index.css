@@ -1,0 +1,29 @@
+/*
+    ===========================================
+    CSS RESET
+    ===========================================
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*
+    ===========================================
+    HEADER
+    ===========================================
+*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-links {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
