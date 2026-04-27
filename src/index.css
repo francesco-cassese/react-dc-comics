@@ -52,4 +52,51 @@
 
 .footer {
     background-image: url('/img/footer-bg.jpg');
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.footer-columns {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-logo-bg {
+    position: absolute;
+    right: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer-logo-bg img {
+    height: 450px;
+    display: block;
+}
+
+
+.footer-columns {
+    display: flex;
+    gap: 30px;
+}
+
+.col h4 {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.col li a {
+    color: #959595;
+    text-decoration: none;
+    font-size: 13px;
 }
