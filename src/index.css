@@ -20,10 +20,11 @@ body {
     ===========================================
 */
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
 }
 
 .list-links {
@@ -38,14 +39,48 @@ body {
     ===========================================
 */
 
-#card-container {
-    background-color: black;
+.main-content {
+    background-color: #1c1c1c;
     color: white;
-    padding: 30px;
+    padding: 20px 0;
+}
+
+.action-navbar {
+    background-color: #0282f9;
 }
 
 .main-navbar {
-    background-color: #0282f9;
+    padding: 40px 0;
+    position: relative;
+}
+
+.list-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.action-link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.action-link img {
+    height: 55px;
+    aspect-ratio: 1;
+    object-fit: contain;
+}
+
+.action-link span {
+    font-size: 13px;
+    text-transform: uppercase;
+    white-space: nowrap;
 }
 
 /*
