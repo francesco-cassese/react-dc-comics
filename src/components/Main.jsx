@@ -1,8 +1,11 @@
+import MainCardContainer from "./MainCardContainer";
+import MainNavbarContainer from "./MainNavbarContainer";
+
+
 function Main() {
     return <>
-    <section id="card-container">
-        <h3> --&gt; Contents goes here &lt;--</h3>
-    </section>
+    <MainCardContainer/>
+    <MainNavbarContainer/>
     </>
 };
 

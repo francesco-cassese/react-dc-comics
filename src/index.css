@@ -39,3 +39,17 @@
     color: white;
     padding: 30px;
 }
+
+.main-navbar {
+    background-color: #0282f9;
+}
+
+/*
+    ===========================================
+    FOOTER
+    ===========================================
+*/
+
+.footer {
+    background-image: url('/img/footer-bg.jpg');
+}
