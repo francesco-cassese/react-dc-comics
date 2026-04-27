@@ -1,4 +1,4 @@
-import HeaderNavLinks from "./HeaderNavLinks";
+import HeaderNavLinks from "./HeaderNavLinks.jsx";
 
 function HeaderNavBar() {
     return <nav>
