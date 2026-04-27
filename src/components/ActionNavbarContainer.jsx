@@ -1,4 +1,4 @@
-import ActionNavbar from "./ActionNavbar";
+import ActionNavbar from "./ActionNavbar.jsx";
 
 function ActionNavbarContainer(){
     return <div className="main-navbar">
