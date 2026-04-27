@@ -1,11 +1,11 @@
 import MainCardContainer from "./MainCardContainer";
-import MainNavbarContainer from "./MainNavbarContainer";
+import ActionNavbarContainer from "./ActionNavbarContainer";
 
 
 function Main() {
     return <>
     <MainCardContainer/>
-    <MainNavbarContainer/>
+    <ActionNavbarContainer/>
     </>
 };
 

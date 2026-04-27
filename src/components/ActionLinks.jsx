@@ -1,4 +1,4 @@
-function MainNavLinks(){
+function ActionItems(){
     return <>
     <li>
     <a href="#">
@@ -37,4 +37,4 @@ function MainNavLinks(){
     </>
 };
 
-export default MainNavLinks;
+export default ActionItems;
