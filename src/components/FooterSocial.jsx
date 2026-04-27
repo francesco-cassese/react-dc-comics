@@ -2,8 +2,8 @@ import SocialLinks from "./FooterSocialLinks.jsx";
 
 function FooterSocial() {
     return (
-        <section className="footer-social-bg">
-            <div className="container social-wrapper">
+        <section className="footer-social">
+            <div className="social-wrapper">
                 
                 {/* Parte sinistra */}
                 <div className="footer-btn-sign">
