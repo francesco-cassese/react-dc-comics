@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 /*
     ===========================================
     HEADER
@@ -50,7 +54,7 @@
     ===========================================
 */
 
-.footer {
+.footer-top {
     background-image: url('/img/footer-bg.jpg');
     background-size: cover;
     overflow: hidden;
@@ -99,4 +103,58 @@
     color: #959595;
     text-decoration: none;
     font-size: 13px;
+}
+
+
+.footer-bottom {
+    background-color: #303030;
+    position: relative;
+    z-index: 10;
+    padding: 30px 0;
+}
+
+.social-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.footer-btn-sign button {
+    background-color: transparent;
+    border: 2px solid #0282f9;
+    color: white;
+    padding: 12px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.footer-btn-sign button:hover {
+    background-color: #0282f9;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-icons span {
+    color: #0282f9;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.footer-icons img {
+    width: 32px;
+    height: auto;
+    cursor: pointer;
+    transition: filter 0.3s;
+}
+
+.footer-icons img:hover {
+    filter: brightness(1.5);
 }
