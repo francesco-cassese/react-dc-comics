@@ -1,6 +1,6 @@
 function Main() {
     return <>
-    <section id="card">
+    <section id="card-container">
         <h3> --&gt; Contents goes here &lt;--</h3>
     </section>
     </>
