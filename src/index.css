@@ -54,7 +54,7 @@ body {
     position: relative;
 }
 
-.list-links {
+.list-links-action {
     display: flex;
     justify-content: center;
     gap: 40px;

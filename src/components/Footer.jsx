@@ -6,7 +6,7 @@ function Footer() {
         <footer>
             {/* AREA SUPERIORE: Link + Logo */}
             <div className="footer-top">
-                <div className="container">
+                <div>
                     <FooterNav />
                     
                     <div className="footer-logo-bg">
