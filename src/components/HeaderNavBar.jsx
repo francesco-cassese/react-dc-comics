@@ -2,7 +2,7 @@ import HeaderNavLinks from "./HeaderNavLinks.jsx";
 
 function HeaderNavBar() {
     return <nav>
-        <ul className="list-links">
+        <ul className="header-menu">
             <HeaderNavLinks/>
         </ul>
     </nav>

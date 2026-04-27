@@ -1,7 +1,7 @@
 import ActionItems from "./ActionLinks.jsx";
 
 function ActionNavbar(){
-    return <ul className="list-links-action">
+    return <ul className="action-bar-list">
         <ActionItems/>
     </ul>
 };
