@@ -1,11 +1,11 @@
 import HeaderNavLinks from "./HeaderNavLinks.jsx";
 
 function HeaderNavBar() {
-    return <nav>
-        <ul className="header-menu">
-            <HeaderNavLinks/>
-        </ul>
-    </nav>
+    return (
+        <nav>
+            <HeaderNavLinks />
+        </nav>
+    )
 };
 
 export default HeaderNavBar;
