@@ -13,6 +13,11 @@ function Main() {
                     CURRENT SERIES
                 </span>
                 <MainCardContainer />
+                <div className="btn-loadmore-container">
+                    <button className="btn-loadmore">
+                        LOAD MORE
+                    </button>
+                </div>
             </div>
         </section>
         <section className="action-navbar">
