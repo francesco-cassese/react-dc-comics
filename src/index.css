@@ -101,6 +101,33 @@ body {
     width: 100%;
 }
 
+#card-container {
+    padding: 30px 0;
+}
+
+.comic-thumb {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.comic-thumb figure {
+    width: calc((100% / 6) - (20px * 5) / 6);
+    margin: 0;
+}
+
+.comic-thumb figcaption {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.comic-thumb img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
 .main-content {
     background-color: var(--main-bg-color);
     color: var(--main-txt-color);

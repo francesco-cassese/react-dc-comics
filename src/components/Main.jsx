@@ -1,6 +1,5 @@
 import MainCardContainer from "./MainCardContainer";
 import ActionNavbarContainer from "./ActionNavbarContainer";
-import Jumbotron from "./Jumbotron";
 
 
 function Main() {

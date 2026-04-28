@@ -2,11 +2,11 @@ import comics from "../data/comics.js";
 
 function Card() {
     const listCardJsx = comics.map(comic => {
-        const { id, title, thumb } = comic;
+        const { id, series, thumb } = comic;
         return (
             <figure key={id}>
-                <img src={thumb} alt={title} />
-                <figcaption>{title}</figcaption>
+                <img src={thumb} alt={series} />
+                <figcaption>{series}</figcaption>
             </figure>
         )
     });
