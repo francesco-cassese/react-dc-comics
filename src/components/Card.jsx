@@ -5,7 +5,9 @@ function Card() {
         const { id, series, thumb } = comic;
         return (
             <figure key={id}>
-                <img src={thumb} alt={series} />
+                <div className="image-box">
+                    <img src={thumb} alt={series} />
+                </div>
                 <figcaption>{series}</figcaption>
             </figure>
         )
