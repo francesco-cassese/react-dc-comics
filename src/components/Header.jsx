@@ -4,10 +4,10 @@ import Logo from "./Logo.jsx";
 
 function Header() {
     return <header className="header">
-        <div class="container"> 
-            <Logo/>
-            <HeaderNavBar/>
-       </div>
+        <div className="container">
+            <Logo />
+            <HeaderNavBar />
+        </div>
     </header>
 }
 

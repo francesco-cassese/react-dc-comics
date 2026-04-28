@@ -1,10 +1,11 @@
-import SocialLinks from "./FooterSocialLinks.jsx";
+import FooterSocialLinks from "./FooterSocialLinks.jsx";
+
 
 function FooterSocial() {
     return (
         <section className="footer-social">
             <div className="social-wrapper">
-                
+
                 {/* Parte sinistra */}
                 <div className="footer-btn-sign">
                     <button>SIGN-UP NOW!</button>
@@ -13,7 +14,7 @@ function FooterSocial() {
                 {/* Parte destra */}
                 <div className="footer-icons">
                     <span>FOLLOW US</span>
-                    <SocialLinks />
+                    <FooterSocialLinks />
                 </div>
 
             </div>

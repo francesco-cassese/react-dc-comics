@@ -249,6 +249,12 @@ body {
     gap: 15px;
 }
 
+.footer-icons ul {
+    list-style-type: none;
+    display: flex;
+    gap: 5px;
+}
+
 .footer-icons span {
     color: var(--footer-social-title);
     font-weight: bold;
@@ -270,8 +276,7 @@ body {
 
 .header-menu,
 .action-bar-list,
-.footer-columns,
-.footer-icons {
+.footer-columns {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
