@@ -1,8 +1,10 @@
-function MainCardContainer(){
-    return <> 
-    <section id="card-container">
-        <h3> --&gt; Contents goes here &lt;--</h3>
-    </section>
+import Card from "./Card";
+
+function MainCardContainer() {
+    return <>
+        <section id="card-container">
+            <Card />
+        </section>
     </>
 };
 
