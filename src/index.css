@@ -36,7 +36,7 @@ body {
     --main-badge-bg: #0282f9;
     --main-badge-txt: #ffffff;
     --btn-loadmore-bg: #0282f9;
-    --btn-loadmore-color: #ffffff;
+    --btn-loadmore-color-txt: #ffffff;
 
     /* Footer*/
     --footer-txt-title: #ffffff;
@@ -179,8 +179,8 @@ body {
     padding: 10px 50px;
     font-weight: bold;
     font-size: 10px;
-    color: #ffffff;
-    background-color: #0282f9;
+    color: var(--btn-loadmore-color-txt);
+    background-color: var(--btn-loadmore-bg);
     margin-bottom: 12px;
     transition: all 0.3s ease;
 }
