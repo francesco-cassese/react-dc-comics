@@ -35,6 +35,8 @@ body {
     --action-bar-txt: #ffffff;
     --main-badge-bg: #0282f9;
     --main-badge-txt: #ffffff;
+    --btn-loadmore-bg: #0282f9;
+    --btn-loadmore-color: #ffffff;
 
     /* Footer*/
     --footer-txt-title: #ffffff;
@@ -223,11 +225,11 @@ body {
     height: 50px;
     aspect-ratio: 1;
     object-fit: contain;
+    transition: transform 0.3s ease;
 }
 
 .action-bar-list li a:hover img {
     transform: scale(1.05);
-    transition: transform 0.3s ease;
 }
 
 /*
@@ -365,8 +367,7 @@ body {
 
 .header-menu,
 .action-bar-list,
-.footer-columns {
+.footer-columns,
+.footer-icons {
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
 }
