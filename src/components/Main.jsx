@@ -7,7 +7,11 @@ function Main() {
         <section className="main-content">
             <div className="jumbotron">
             </div>
+
             <div className="container">
+                <span className="main-badge">
+                    CURRENT SERIES
+                </span>
                 <MainCardContainer />
             </div>
         </section>

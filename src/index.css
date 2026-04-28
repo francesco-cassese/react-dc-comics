@@ -33,6 +33,8 @@ body {
     --main-txt-color: #ffffff;
     --action-bar-bg: #0282f9;
     --action-bar-txt: #ffffff;
+    --main-badge-bg: #0282f9;
+    --main-badge-txt: #ffffff;
 
     /* Footer*/
     --footer-txt-title: #ffffff;
@@ -93,6 +95,16 @@ body {
     ===========================================
 */
 
+.main-badge {
+    background-color: var(--main-badge-bg);
+    color: var(--main-badge-txt);
+    padding: 10px 20px;
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+
 .jumbotron {
     background-image: url("/img/jumbotron.jpg");
     background-size: 100%;
@@ -102,7 +114,7 @@ body {
 }
 
 #card-container {
-    padding: 30px 0;
+    padding: 50px 0;
 }
 
 .comic-thumb {
