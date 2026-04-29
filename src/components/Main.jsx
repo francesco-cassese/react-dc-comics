@@ -1,5 +1,5 @@
 import MainCardContainer from "./MainCardContainer";
-import ActionNavbarContainer from "./ActionNavbarContainer";
+import ActionNavbar from "./ActionNavbar";
 
 
 function Main() {
@@ -22,7 +22,7 @@ function Main() {
         </section>
         <section className="action-navbar">
             <div className="container">
-                <ActionNavbarContainer />
+                <ActionNavbar />
             </div>
         </section>
     </main>
