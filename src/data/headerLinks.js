@@ -1,4 +1,4 @@
-const linkNavigazione = [
+const linkNavigazioneHeader = [
     { id: 1, text: "CHARACTERS", url: "#" },
     { id: 2, text: "COMICS", url: "#" },
     { id: 3, text: "MOVIES", url: "#" },
@@ -11,4 +11,4 @@ const linkNavigazione = [
     { id: 10, text: "SHOP", url: "#" }
 ];
 
-export default linkNavigazione;
+export default linkNavigazioneHeader;

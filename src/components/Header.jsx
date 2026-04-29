@@ -2,11 +2,12 @@ import HeaderNavBar from "./HeaderNavBar.jsx";
 import Logo from "./Logo.jsx";
 
 
-function Header() {
+function Header(props) {
+    console.log(props.links);
     return <header className="header">
         <div className="container">
             <Logo />
-            <HeaderNavBar />
+            <HeaderNavBar linksNavbar={props.links} />
         </div>
     </header>
 }

@@ -1,10 +1,10 @@
 import ListaLink from "./reusable/ListaLink.jsx";
-import linkNavigazione from "../data/headerLinks.js";
 
-function HeaderNavBar() {
+function HeaderNavBar(props) {
+    console.log(props.linksNavbar)
     return (
         <nav className="header-menu">
-            <ListaLink links={linkNavigazione} />
+            <ListaLink links={props.linksNavbar} />
         </nav>
     )
 };
