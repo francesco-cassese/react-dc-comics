@@ -1,7 +1,7 @@
 import linkNavigazioneHeader from "./data/headerLinks.js";
 import comics from "./data/comics.js";
 import ActionElem from "./data/actionElem.js";
-import { dcComicsLinks, shopLinks, dcLinks, sitesLinks } from "./data/footerLinks.js"
+import dcLinksFooter from "./data/footerLinks.js";
 import socialLinks from "./data/socialLink.js";
 
 import Footer from "./components/Footer.jsx";
@@ -14,7 +14,7 @@ function App() {
   return <>
     <Header links={linkNavigazioneHeader} />
     <Main comicsListObj={comics} actionListLinks={ActionElem} />
-    <Footer />
+    <Footer footerLinkList={dcLinksFooter} socialLinkList={socialLinks} />
   </>
 
 }

@@ -1,12 +1,14 @@
 import FooterNav from "./FooterNav";
 import FooterSocial from "./FooterSocial";
 
-function Footer() {
+function Footer(props) {
+    console.log(props.footerLinkList);
+    console.log(props.socialLinkList);
     return (
         <footer>
             <div className="footer-top">
-                <div className="container"> 
-                    <FooterNav />              
+                <div className="container">
+                    <FooterNav linkList={props.footerLinkList} />
                     <div className="footer-logo-bg">
                         <img src="/img/dc-logo-bg.png" alt="DC Logo Background" />
                     </div>
@@ -14,7 +16,7 @@ function Footer() {
             </div>
             <div className="footer-bottom">
                 <div className="container">
-                    <FooterSocial />
+                    <FooterSocial linkSocial={props.socialLinkList} />
                 </div>
             </div>
         </footer>

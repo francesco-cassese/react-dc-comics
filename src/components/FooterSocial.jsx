@@ -1,8 +1,8 @@
-import socialLinks from "../data/socialLink.js";
 import ListaImg from "./reusable/ListaImg.jsx";
 
 
-function FooterSocial() {
+function FooterSocial(props) {
+    console.log(props.linkSocial);
     return (
         <section className="footer-social">
             <div className="social-wrapper">
@@ -15,7 +15,7 @@ function FooterSocial() {
                 {/* Parte destra */}
                 <div className="footer-icons">
                     <span>FOLLOW US</span>
-                    <ListaImg elements={socialLinks} />
+                    <ListaImg elements={props.linkSocial} />
                 </div>
 
             </div>
