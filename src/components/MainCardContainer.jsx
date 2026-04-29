@@ -1,9 +1,10 @@
 import Card from "./Card";
 
-function MainCardContainer() {
+function MainCardContainer(props) {
+    console.log(props.comicsList);
     return (
         <section id="card-container">
-            <Card />
+            <Card comics={props.comicsList} />
         </section>
     )
 };

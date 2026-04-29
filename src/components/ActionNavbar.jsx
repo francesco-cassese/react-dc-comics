@@ -1,10 +1,10 @@
-import ActionElem from "../data/actionElem.js";
 import ListaImg from "./reusable/ListaImg.jsx";
 
-function ActionNavbar() {
+function ActionNavbar(props) {
+    console.log(props.actionElem);
     return <div className="main-navbar">
         <ul className="action-bar-list">
-            <ListaImg elements={ActionElem} />
+            <ListaImg elements={props.actionElem} />
         </ul>
     </div>
 };

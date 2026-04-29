@@ -1,7 +1,6 @@
-import comics from "../data/comics.js";
-
-function Card() {
-    const listCardJsx = comics.map(comic => {
+function Card(props) {
+    console.log(props.comics)
+    const listCardJsx = props.comics.map(comic => {
         const { id, series, thumb } = comic;
         return (
             <figure key={id}>
