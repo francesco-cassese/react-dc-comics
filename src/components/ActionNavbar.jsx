@@ -1,5 +1,4 @@
 import ActionElem from "../data/actionElem.js";
-import socialLinks from "../data/socialLink.js";
 import ListaImg from "./reusable/ListaImg.jsx";
 
 function ActionNavbar() {

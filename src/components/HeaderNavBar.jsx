@@ -1,4 +1,4 @@
-import ListaLink from "./ListaLink.jsx";
+import ListaLink from "./reusable/ListaLink.jsx";
 import linkNavigazione from "../data/headerLinks.js";
 
 function HeaderNavBar() {
