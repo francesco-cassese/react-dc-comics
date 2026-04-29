@@ -1,21 +1,11 @@
 import ActionElem from "../data/actionElem.js";
+import socialLinks from "../data/socialLink.js";
+import ListaImg from "./reusable/ListaImg.jsx";
 
 function ActionNavbar() {
-    const listaJsx = ActionElem.map(elem => {
-        const { id, text, img } = elem;
-        return (
-            <li key={id}>
-                <a href="#">
-                    <img src={img} alt={text} />
-                    <span>{text}</span>
-                </a>
-            </li>
-        )
-    });
-
     return <div className="main-navbar">
         <ul className="action-bar-list">
-            {listaJsx}
+            <ListaImg elements={ActionElem} />
         </ul>
     </div>
 };
