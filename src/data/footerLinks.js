@@ -1,30 +1,32 @@
-export const dcComicsLinks = [
-    { id: 1, testo: "Characters", url: "#" },
-    { id: 2, testo: "Comics", url: "#" },
-    { id: 3, testo: "Movies", url: "#" },
-    { id: 4, testo: "TV", url: "#" },
-    { id: 5, testo: "Games", url: "#" },
-    { id: 6, testo: "Videos", url: "#" },
-    { id: 7, testo: "News", url: "#" }
+const dcComicsLinks = [
+    { id: 1, text: "Characters", url: "#" },
+    { id: 2, text: "Comics", url: "#" },
+    { id: 3, text: "Movies", url: "#" },
+    { id: 4, text: "TV", url: "#" },
+    { id: 5, text: "Games", url: "#" },
+    { id: 6, text: "Videos", url: "#" },
+    { id: 7, text: "News", url: "#" }
 ];
 
-export const shopLinks = [
-    { id: 1, testo: "Shop DC", url: "#" },
-    { id: 2, testo: "Shop DC Collectibles", url: "#" }
+const shopLinks = [
+    { id: 1, text: "Shop DC", url: "#" },
+    { id: 2, text: "Shop DC Collectibles", url: "#" }
 ];
 
-export const dcLinks = [
-    { id: 1, testo: "Terms Of Use", url: "#" },
-    { id: 2, testo: "Privacy policy (New)", url: "#" },
-    { id: 3, testo: "Ad Choices", url: "#" },
-    { id: 4, testo: "Advertising", url: "#" },
-    { id: 5, testo: "Jobs", url: "#" }
+const dcLinks = [
+    { id: 1, text: "Terms Of Use", url: "#" },
+    { id: 2, text: "Privacy policy (New)", url: "#" },
+    { id: 3, text: "Ad Choices", url: "#" },
+    { id: 4, text: "Advertising", url: "#" },
+    { id: 5, text: "Jobs", url: "#" }
 ];
 
-export const sitesLinks = [
-    { id: 1, testo: "DC", url: "#" },
-    { id: 2, testo: "MAD Magazine", url: "#" },
-    { id: 3, testo: "DC Kids", url: "#" },
-    { id: 4, testo: "DC Universe", url: "#" },
-    { id: 5, testo: "DC Power Visa", url: "#" }
+const sitesLinks = [
+    { id: 1, text: "DC", url: "#" },
+    { id: 2, text: "MAD Magazine", url: "#" },
+    { id: 3, text: "DC Kids", url: "#" },
+    { id: 4, text: "DC Universe", url: "#" },
+    { id: 5, text: "DC Power Visa", url: "#" }
 ];
+
+export { dcComicsLinks, shopLinks, dcLinks, sitesLinks };
