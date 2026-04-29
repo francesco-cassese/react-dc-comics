@@ -4,20 +4,20 @@ function ActionNavbar() {
     const listaJsx = ActionElem.map(elem => {
         const { id, text, img } = elem;
         return (
-            <div className="main-navbar">
-                <li key={id}>
-                    <a href="#">
-                        <img src={img} alt={text} />
-                        <span>{text}</span>
-                    </a>
-                </li>
-            </div>
+            <li key={id}>
+                <a href="#">
+                    <img src={img} alt={text} />
+                    <span>{text}</span>
+                </a>
+            </li>
         )
     });
 
-    return <ul className="action-bar-list">
-        {listaJsx}
-    </ul>
+    return <div className="main-navbar">
+        <ul className="action-bar-list">
+            {listaJsx}
+        </ul>
+    </div>
 };
 
 export default ActionNavbar;
