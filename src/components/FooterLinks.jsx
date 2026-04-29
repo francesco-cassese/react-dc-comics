@@ -1,54 +1,51 @@
-function LinksComics() {
-    return (
-        <>
-            <li><a href="#">Characters</a></li>
-            <li><a href="#">Comics</a></li>
-            <li><a href="#">Movies</a></li>
-            <li><a href="#">TV</a></li>
-            <li><a href="#">Games</a></li>
-            <li><a href="#">Videos</a></li>
-            <li><a href="#">News</a></li>
-        </>
-    );
+import { dcComicsLinks, shopLinks, dcLinks, sitesLinks } from "../data/footerLinks.js";
+
+function DcComics() {
+    const listaDcComics = dcComicsLinks.map(link => {
+        const { id, url, testo } = link
+        return (
+            <li key={id}>
+                <a href={url}>{testo}</a>
+            </li>
+        );
+    })
+    return <>{listaDcComics}</>;
+};
+
+function Shop() {
+    const listaShop = shopLinks.map(link => {
+        const { id, url, testo } = link
+        return (
+            <li key={id}>
+                <a href={url}>{testo}</a>
+            </li>
+        );
+    })
+    return <>{listaShop}</>;
+};
+
+function Dc() {
+    const listaDc = dcLinks.map(link => {
+        const { id, url, testo } = link;
+        return (
+            <li key={id}>
+                <a href={url}>{testo}</a>
+            </li>
+        );
+    });
+    return <>{listaDc}</>;
 }
 
-function LinksShop() {
-    return (
-        <>
-            <li><a href="#">Shop DC</a></li>
-            <li><a href="#">Shop DC Collectibles</a></li>
-        </>
-    );
+function Sites() {
+    const listaSites = sitesLinks.map(link => {
+        const { id, url, testo } = link;
+        return (
+            <li key={id}>
+                <a href={url}>{testo}</a>
+            </li>
+        );
+    });
+    return <>{listaSites}</>;
 }
 
-function LinksDc() {
-    return (
-        <>
-            <li><a href="#">Terms Of Use</a></li>
-            <li><a href="#">Privacy policy (New)</a></li>
-            <li><a href="#">Ad Choices</a></li>
-            <li><a href="#">Advertising</a></li>
-            <li><a href="#">Jobs</a></li>
-            <li><a href="#">Subscriptions</a></li>
-            <li><a href="#">Talent Workshops</a></li>
-            <li><a href="#">CPSC Certificates</a></li>
-            <li><a href="#">Ratings</a></li>
-            <li><a href="#">Shop Help</a></li>
-            <li><a href="#">Contact Us</a></li>
-        </>
-    );
-}
-
-function LinksSites() {
-    return (
-        <>
-            <li><a href="#">DC</a></li>
-            <li><a href="#">MAD Magazine</a></li>
-            <li><a href="#">DC Kids</a></li>
-            <li><a href="#">DC Universe</a></li>
-            <li><a href="#">DC Power Visa</a></li>
-        </>
-    );
-}
-
-export { LinksComics, LinksShop, LinksDc, LinksSites };
+export { DcComics, Shop, Dc, Sites };
