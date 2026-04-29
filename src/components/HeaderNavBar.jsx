@@ -1,9 +1,10 @@
-import HeaderNavLinks from "./HeaderNavLinks.jsx";
+import ListaLink from "./ListaLink.jsx";
+import linkNavigazione from "../data/headerLinks.js";
 
 function HeaderNavBar() {
     return (
-        <nav>
-            <HeaderNavLinks />
+        <nav className="header-menu">
+            <ListaLink links={linkNavigazione} />
         </nav>
     )
 };
