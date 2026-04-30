@@ -15,7 +15,9 @@ function FooterSocial(props) {
                 {/* Parte destra */}
                 <div className="footer-icons">
                     <span>FOLLOW US</span>
-                    <ListaImg elements={props.linkSocial} />
+                    <ul>
+                        <ListaImg elements={props.linkSocial} />
+                    </ul>
                 </div>
 
             </div>
